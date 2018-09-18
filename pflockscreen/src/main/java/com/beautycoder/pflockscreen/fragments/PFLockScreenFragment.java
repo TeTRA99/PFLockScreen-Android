@@ -315,12 +315,12 @@ public class PFLockScreenFragment extends Fragment {
     }
 
     private void errorAction() {
-        Vibrator v = (Vibrator) getContext().getSystemService(Context.VIBRATOR_SERVICE);
+       /* Vibrator v = (Vibrator) getContext().getSystemService(Context.VIBRATOR_SERVICE);
         if (v != null) {
             v.vibrate(400);
         }
         final Animation animShake = AnimationUtils.loadAnimation(getContext(), R.anim.shake_pf);
-        mCodeView.startAnimation(animShake);
+        mCodeView.startAnimation(animShake);*/
     }
 
 
